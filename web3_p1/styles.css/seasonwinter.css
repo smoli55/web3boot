@@ -1,0 +1,247 @@
+   /* for desktop */
+   @media only screen and (min-width: 768px){
+    .menu{
+      display: none;
+    }
+    
+    .navbar{
+      display: flex;
+      width: 75%;
+      font-family: 'Kodchasan', sans-serif;
+      font-size: 18px;
+      justify-content: space-around;
+      margin-bottom: 50px;
+      
+    }
+    /* unvisited link */
+    .nav-link:link {
+      color:black
+    }
+    
+    /* visited link */
+    .nav-link:visited {
+      color: black;
+    }
+    
+    /* mouse over link */
+    .nav-link:hover {
+      color: orange;
+    }
+    
+    /* selected link */
+    .nav-link:active {
+      color: orange;
+      font-weight: bold;
+    }
+    .top{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    }
+    .title{
+    font-family: "aesthet-nova", serif;
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+    }
+    .subtitle{
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 25px;
+    }
+    .header{
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+      align-content: center;
+    }
+    .subtitle2{
+      font-family: 'Kodchasan', sans-serif;
+      text-decoration: underline;
+      font-size: 24px;
+      align-self: center;
+    }
+    .previous{
+      color: black;
+      text-decoration: none;
+    }
+    .next{
+      color: black;
+      text-decoration: none;
+    }
+    
+    .header{
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+    }
+    .subtitle2{
+      font-family: 'Kodchasan', sans-serif;
+      text-decoration: underline;
+      font-size: 24px;
+      align-self: center;
+    }
+    .previous{
+      color: black;
+      text-decoration: none;
+      font-size: 32px;
+    }
+    .next{
+      color: black;
+      text-decoration: none;
+      font-size: 32px;
+    }
+    .main{
+      
+      display: flex;
+      justify-content: space-around;
+      background-image: url(imgs/winterbackgrounddesk.svg);
+      background-repeat: no-repeat;
+      margin-top: 50px;
+    }
+    .part1{
+      width: 30%;
+      font-family: "aesthet-nova", serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    .part2{
+      width: 30%;
+      font-family: 'Kodchasan', sans-serif;
+      font-weight: bold;
+    }}
+            /* for mobile */
+    
+       @media only screen and (max-width: 768px){
+    
+        .navbar{
+      display: none;
+    }
+    .dropdown{
+      background-image: url(imgs/SVG/tomato.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 85px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button{
+      border: none;
+      background: none;
+      font-family: 'Kodchasan', sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+    #dropdownlist{
+      background-color: rgb(255, 77, 0);
+      font-family: 'Kodchasan', sans-serif;
+      text-align: center;
+      color: white;
+    }
+    .dropdownitem{
+      color: white;
+     padding: 10px;
+    }
+    .menu{
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    .top{
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      font-family: "aesthet-nova", serif;
+    font-size: 42px;
+    }
+    .title{
+    font-family: "aesthet-nova", serif;
+    font-size: 42px;
+    
+    }
+    .subtitle{
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 25px;
+    }
+    .header{
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+      align-content: center;
+    }
+    .subtitle2{
+      font-family: 'Kodchasan', sans-serif;
+      text-decoration: underline;
+      font-size: 24px;
+      align-self: center;
+    }
+    .previous{
+      color: black;
+      text-decoration: none;
+    }
+    .next{
+      color: black;
+      text-decoration: none;
+    }
+    
+    .textbox1{
+      width: 50%;
+      height:150px;
+      font-family: 'Kodchasan', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      
+    }
+    
+    .textbox1{
+      width: 305px;
+      height:150px;
+      font-family: "aesthet-nova", serif;
+      font-size: 20px
+      
+    }
+    .part1{
+      background-image: url(imgs/SVG/SVG/parsnip.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 360px;
+      height: 460px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .part2{
+      background-image: url(imgs/winterbackground.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 600px;
+      height: 1500px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .textbox2{
+      width: 305px;
+      height:150px;
+      font-family: 'Kodchasan', sans-serif;
+      font-size: 20px
+      
+    }
+       }

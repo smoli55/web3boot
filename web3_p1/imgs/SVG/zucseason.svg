@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291 236.58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Kodchasan-Medium, Kodchasan;
+        font-size: 21px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="204.85" y1="-34.5" x2="240.57" y2="62.36" gradientTransform="translate(-62.06 167.01) rotate(-14.57)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f9647"/>
+      <stop offset=".31" stop-color="#3e6121"/>
+      <stop offset=".52" stop-color="#19420c"/>
+      <stop offset=".78" stop-color="#1b3108"/>
+      <stop offset="1" stop-color="#1d2806"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="m221.42,25.17c-19.82,17.59-33.47,36.43-35.68,39.42-12.62,17.1-33.44,30.89-78.35,51.95-44.13,20.69-68.1,30.62-68.11,30.62-10.12,4.19-23,9.36-31.46,22.53C.69,180.81-.19,192.78.03,200.42c.1,3.86.82,9.91,4.19,16.13,9.59,17.66,31.45,19.71,33.88,19.9,14.2,1.11,24.62-5.29,36.94-12.48,49.86-29.06,39.89-17.9,66.71-36,51.7-34.9,40.23-43.64,96.55-86.82,24.51-18.79,56.38-39.9,52.35-58.1-1.18-5.33-6.68-15.98-3.31-29.28,1-3.96,2.5-7,3.55-8.87-4.72-1.63-9.43-3.26-14.15-4.9-1.43,2.49-3.9,5.96-7.98,8.55-9.31,5.93-17.86,1.45-29.62,4.95-4.49,1.34-8.62,3.59-17.73,11.67Z"/>
+    <text class="cls-1" transform="translate(76.6 191.01) rotate(-35.25)"><tspan x="0" y="0">Wh</tspan><tspan class="cls-6" x="32.91" y="0">a</tspan><tspan x="44.75" y="0">t’s in s</tspan><tspan class="cls-3" x="111.4" y="0">e</tspan><tspan class="cls-4" x="123.86" y="0">as</tspan><tspan class="cls-5" x="147.08" y="0">o</tspan><tspan x="160.35" y="0">n</tspan></text>
+  </g>
+</svg>

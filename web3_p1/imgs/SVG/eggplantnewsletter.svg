@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.54 152">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Kodchasan-Medium, Kodchasan;
+        font-size: 21px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="189.9" cy="18.33" fx="189.9" fy="18.33" r="69.74" gradientTransform="translate(364.8 -66.04) rotate(142.21) scale(1 2.21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2db61"/>
+      <stop offset=".05" stop-color="#aacd5e"/>
+      <stop offset=".31" stop-color="#858653"/>
+      <stop offset=".54" stop-color="#684e4a"/>
+      <stop offset=".74" stop-color="#532643"/>
+      <stop offset=".9" stop-color="#460e3f"/>
+      <stop offset="1" stop-color="#42053e"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="m196.49,12.28c-5.08-.8-10,.98-12.68,4.7-2,2.78-2.14,5.79-2.12,7.13v.02c4.91,23.08-19.21,47.95-44.26,72.35-31.4,30.59-61.85,69.49-95.4,50.5C-25.23,108.91-11.79,8.76,82.53,33.66c38.08,10.05,62.46-54.34,89.37-26.72,1.03,1.05,1.97,2.12,2.84,3.19,9.45-5.36,17.84-6.05,20.67-2.56.59.72,1.31,2.09,1.09,4.71Z"/>
+    <text class="cls-1" transform="translate(29.84 101.77) rotate(-17.04)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-3" x="28.31" y="0">w</tspan><tspan x="44.69" y="0">sl</tspan><tspan class="cls-4" x="61.17" y="0">et</tspan><tspan class="cls-5" x="82.91" y="0">ter</tspan></text>
+  </g>
+</svg>

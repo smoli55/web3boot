@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spring</title>
+
+
+  <link rel="stylesheet" href="styles.css/seasonspring.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/js/bootstrap.bundle.js">
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/ubl0flg.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+
+
+
+
+  <style>
+    /* for desktop */
+@media only screen and (min-width: 768px){
+  .menu{
+    display: none;
+  }
+  
+  .navbar{
+    display: flex;
+    width: 75%;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+  }
+  /* unvisited link */
+  .nav-link:link {
+    color:black
+  }
+  
+  /* visited link */
+  .nav-link:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  .nav-link:hover {
+    color: orange;
+  }
+  
+  /* selected link */
+  .nav-link:active {
+    color: orange;
+    font-weight: bold;
+  }
+  .top{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  }
+  .title{
+  font-family: "aesthet-nova", serif;
+  font-size: 42px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  
+  }
+  .subtitle{
+  font-family: 'Kodchasan', sans-serif;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 25px;
+  }
+  .header{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+  .subtitle2{
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+    align-self: center;
+  }
+  .previous{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .next{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .main{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(imgs/SVG/SVG/springbackgrounddesk.svg);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+  .part1{
+    width: 30%;
+    font-family: "aesthet-nova", serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .part2{
+    width: 30%;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bold;
+  }}
+          /* for mobile */
+  
+     @media only screen and (max-width: 768px){
+  
+      .navbar{
+    display: none;
+  }
+  .dropdown{
+    background-image: url(imgs/SVG/tomato.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button{
+    border: none;
+    background: none;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+  }
+  #dropdownlist{
+    background-color: rgb(255, 77, 0);
+    font-family: 'Kodchasan', sans-serif;
+    text-align: center;
+    color: white;
+  }
+  .dropdownitem{
+    color: white;
+   padding: 10px;
+  }
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .top{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: "aesthet-nova", serif;
+  font-size: 42px;
+  }
+  .title{
+  font-family: "aesthet-nova", serif;
+  font-size: 42px;
+  
+  }
+  .subtitle{
+  font-family: 'Kodchasan', sans-serif;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 25px;
+  }
+  .header{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .subtitle2{
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+    align-self: center;
+  }
+  .previous{
+    color: black;
+    text-decoration: none;
+  }
+  .next{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .textbox1{
+    width: 50%;
+    height:150px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+  
+  .textbox1{
+    width: 305px;
+    height:150px;
+    font-family: "aesthet-nova", serif;
+    font-size: 20px
+    
+  }
+  .part1{
+    background-image: url(imgs/SVG/SVG/SVG/strawberry.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 360px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .part2{
+    background-image: url(imgs/springbackground.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .textbox2{
+    width: 305px;
+    height:150px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 20px
+    
+  }
+     }
+     
+  </style>
+</head>
+<body>
+  <div class="menu">                                        
+    <div class="dropdown">
+      <button class="button" type="button"data-bs-toggle="dropdown" >
+      Menu
+      </button>
+      <ul id="dropdownlist" class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">Home</a></li>
+        <li><a class="dropdown-item" href="About.html">About us</a></li>
+        <li><a class="dropdown-item" href="events.html">Events</a></li>
+        <li><a class="dropdown-item" href="season.html">What's in season?</a></li>
+        <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <div class="top">
+    <p class="title">Cornucopia</p>
+    <div class="navbar">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="About.html">About us</a>
+      <a class="nav-link" href="season.html">What's in season</a>
+      <a class="nav-link" href="newsletter.html">Newsletter</a>
+      <a class="nav-link" href="events.html">Events</a>
+      <a class="nav-link" href="contact.html">Contact us</a>
+    </div>
+    <p class="subtitle">Whats in season?
+    </p>
+    <div class="header">
+      <p><a href="seasonwinter.html" class="previous">&lsaquo;</a></p>
+      <p class="subtitle2">Spring</p>
+      <p>  <a href="seasonsummer.html" class="next">&rsaquo;</a></p>
+    </div>
+    <div class="main">
+    <div class="part1">
+      <div class="textbox1">
+        Spring is a time of renewal, and the fresh produce reflects that.These springtime ingredients are perfect for lighter dishes and salads, celebrating the return of vibrant, fresh flavors.
+      </div>
+    </div>
+ <div class="part2">
+  <div class="textbox2">
+    Asparagus: A delicious and tender spring vegetable.</br></br>
+
+    Rhubarb: Known for its tart flavor, great for pies and jams.</br></br>
+    
+    Spinach: Fresh, tender spinach is abundant in the spring.</br></br>
+    
+    Radishes: Crisp and peppery, perfect for salads.</br></br>
+    
+    Strawberries: The sweet and juicy berries start to ripen in spring.</br></br>
+    
+    Peas: Whether sugar snap peas or garden peas, they’re a spring delight.</br></br>
+    
+    Lettuce and salad greens: A variety of fresh greens become available.</br></br>
+    
+    Fiddleheads: A unique and seasonal delicacy in the spring.</br></br>
+    
+    Green onions: Mild and flavorful, great for garnishing.</br></br>
+    
+    Artichokes: Spring is a prime time for artichoke harvest.</br></br>
+  </div>
+ </div>
+</div>
+   
+</body>
+</html>

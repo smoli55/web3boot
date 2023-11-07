@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+
+  <link rel="stylesheet" href="styles.css/about.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/js/bootstrap.bundle.js">
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/ubl0flg.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+
+
+<style>
+  
+/* for desktop */
+@media only screen and (min-width: 768px){
+  .menu{
+    display: none;
+  }
+  .navbar{
+  display: flex;
+  width: 75%;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 18px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  
+}
+/* unvisited link */
+.nav-link:link {
+  color:black
+}
+
+/* visited link */
+.nav-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+.nav-link:hover {
+  color: orange;
+}
+
+/* selected link */
+.nav-link:active {
+  color: orange;
+  font-weight: bold;
+}
+.top{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+font-family: "aesthet-nova", serif;
+font-size: 42px;
+margin-top: 50px;
+margin-bottom: 25px;
+
+}
+.subtitle{
+font-family: 'Kodchasan', sans-serif;
+text-decoration: underline;
+font-size: 24px;
+margin-bottom: 25px;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "aesthet-nova", serif;
+  font-weight: bold;
+  width: 75%;
+}
+.aboutpic{
+  width: 50%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.heading{
+  font-family: "aesthet-nova", serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
+ 
+
+}}
+
+/*for mobile*/
+
+@media only screen and (max-width: 768px){
+  .navbar{
+  display: none;
+}
+.dropdown{
+  background-image: url(imgs/SVG/tomato.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  border: none;
+  background: none;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+#dropdownlist{
+  background-color: rgb(255, 77, 0);
+  font-family: 'Kodchasan', sans-serif;
+  text-align: center;
+  color: white;
+}
+.dropdownitem{
+  color: white;
+ padding: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.top{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+font-family: "aesthet-nova", serif;
+font-size: 42px;
+
+}
+.subtitle{
+  font-family: 'Kodchasan', sans-serif;
+  text-decoration: underline;
+  font-size: 32px;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "aesthet-nova", serif;
+  font-weight: bold;
+  width: 350px;
+}
+.aboutpic{
+  width: 336px;
+  height: 252px;
+  margin-bottom: 40px;
+}
+.heading{
+  font-family: "aesthet-nova", serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
+ }}
+</style>
+</head>
+<body>
+  <div class="menu">                                        
+    <div class="dropdown">
+      <button class="button" type="button"data-bs-toggle="dropdown" >
+      Menu
+      </button>
+      <ul id="dropdownlist" class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">Home</a></li>
+        <li><a class="dropdown-item" href="About.html">About us</a></li>
+        <li><a class="dropdown-item" href="events.html">Events</a></li>
+        <li><a class="dropdown-item" href="season.html">What's in season?</a></li>
+        <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="top">
+    <p class="title">Cornucopia</p>
+    <div class="navbar">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="About.html">About us</a>
+      <a class="nav-link" href="season.html">What's in season</a>
+      <a class="nav-link" href="newsletter.html">Newsletter</a>
+      <a class="nav-link" href="events.html">Events</a>
+      <a class="nav-link" href="contact.html">Contact us</a>
+    </div>
+    <p class="subtitle">About us</p>
+  </div>
+  <div class="hero">
+  <div class="main">
+    <img class="aboutpic" src="imgs/about.jpg">
+    <p class="text">Welcome to Harvest Haven Farmers Market!
+
+      At Harvest Haven, we’re not just about fruits and veggies; we’re about cultivating a community rooted in freshness, flavor, and fun! Our market is more than a place to pick up your groceries—it’s a celebration of the seasons, a gathering of local growers, and a feast for the senses.</br></br>
+      
+      <p class="heading">Roots:</p> </br></br>
+      
+      Nestled in the heart of the imaginary town of Verdant Valley, Harvest Haven was born from a shared passion for wholesome, locally sourced goodness. We believe in the magic of farm-fresh produce, the joy of discovering unique artisanal treats, and the simple delight of connecting with the people who grow your food.</br></br>
+      
+      <p class="heading">Seasonal Sensations:</p></br></br>
+      
+      Embrace the ebb and flow of nature’s bounty with our ever-changing seasonal offerings. From the crisp crunch of fall apples to the juicy bursts of summer berries, each visit to Harvest Haven is a journey through the colors and flavors of the year.</br></br>
+      
+      <p class="heading">Beyond Produce:</p></br></br>
+      
+      While we adore our fruits and veggies, we also believe in the magic of discovery. Explore handcrafted jams, artisanal cheeses, and the occasional whimsical knitted sweater from Aunt Edna’s Craft Corner. Our market is a treasure trove of delights waiting to be uncovered.</br></br>
+      
+      <p class="heading">Join the Harvest Festival:</p></br></br>
+      
+      Throughout the year, we host Harvest Festivals that bring the community together. Picture lively music, the scent of freshly baked pies, and laughter echoing through the market stalls. It’s a time to savor the best of our local harvest and celebrate the joy of good food and good company.</br></br>
+      
+      <p class="heading">Come Grow with Us:</p></br></br>
+      
+      Harvest Haven isn’t just a market; it’s a family. Join us in sowing the seeds of a vibrant community, one tomato at a time. Whether you’re a seasoned gardener, a curious foodie, or just someone who appreciates a good pun, there’s a place for you at Harvest Haven.
+      
+      So, grab your reusable tote bag, put on your sunniest smile, and come on down to Harvest Haven Farmers Market—a place where the produce is fresh, the people are friendly, and the imaginary memories are very, very real. See you at the market!</p>
+  </div>
+</div>
+</body>
+</html>

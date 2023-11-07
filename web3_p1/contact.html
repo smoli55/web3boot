@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+ 
+
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/js/bootstrap.bundle.js">
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/ubl0flg.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+
+<style>
+/* for desktop */
+@media only screen and (min-width: 768px){
+  .dropdown{
+    display: none;
+  }
+  
+  .navbar{
+  display: flex;
+  width: 75%;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 18px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  
+}
+/* unvisited link */
+.nav-link:link {
+  color:black
+}
+
+/* visited link */
+.nav-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+.nav-link:hover {
+  color: orange;
+}
+
+/* selected link */
+.nav-link:active {
+  color: orange;
+  font-weight: bold;
+}
+.top{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+font-family: "aesthet-nova", serif;
+font-size: 42px;
+
+}
+.subtitle{
+font-family: 'Kodchasan', sans-serif;
+text-decoration: underline;
+font-size: 24px;
+margin-bottom: 25px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.con1{
+  background-image: url(imgs/SVG/apple2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textbox1{
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+
+}
+.con2{
+  background-image: url(imgs/SVG/pepper.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map{
+  margin-top: 100px;
+  margin-right:30px ;
+  border-radius: 10px;
+}}
+ 
+
+/* for mobile */
+
+  @media only screen and (max-width: 768px){
+.navbar{
+  display: none;
+}
+.dropdown{
+  background-image: url(imgs/SVG/tomato.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 85px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  border: none;
+  background: none;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+#dropdownlist{
+  background-color: rgb(255, 77, 0);
+  font-family: 'Kodchasan', sans-serif;
+  text-align: center;
+  color: white;
+}
+.dropdownitem{
+  color: white;
+ padding: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.top{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+font-family: "aesthet-nova", serif;
+font-size: 42px;
+
+}
+.subtitle{
+  font-family: 'Kodchasan', sans-serif;
+  text-decoration: underline;
+  font-size: 32px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.con1{
+  background-image: url(imgs/SVG/apple2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textbox1{
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+
+}
+.con2{
+  background-image: url(imgs/SVG/pepper.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.map{
+  margin-top: 100px;
+  margin-right:30px ;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}}
+  
+  
+
+</style>
+</head>
+<body>
+  <div class="menu">                                        
+    <div class="dropdown">
+      <button class="button" type="button"data-bs-toggle="dropdown" >
+      Menu
+      </button>
+      <ul id="dropdownlist" class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">Home</a></li>
+        <li><a class="dropdown-item" href="About.html">About us</a></li>
+        <li><a class="dropdown-item" href="events.html">Events</a></li>
+        <li><a class="dropdown-item" href="season.html">What's in season?</a></li>
+        <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+
+
+  <div class="top">
+    <p class="title">Cornucopia</p>
+    <div class="navbar">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="About.html">About us</a>
+      <a class="nav-link" href="season.html">What's in season</a>
+      <a class="nav-link" href="newsletter.html">Newsletter</a>
+      <a class="nav-link" href="events.html">Events</a>
+      <a class="nav-link" href="contact.html">Contact us</a>
+    </div>
+    <p class="subtitle">Contact us</p>
+    </div>
+
+    <div class="main">
+      <div class="con1">
+        <div class="textbox1">
+Cornucopia@mail.com</br>
+514-555-5555</br>
+5555 Parc ave.</br>
+5S5 S5S</br>
+Montreal Quebec</br>
+
+        </div>
+      </div>
+      <div class="con2">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.382557168594!2d-73.60489882372285!3d45.5225066710749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91978c2e6d17f%3A0x1183fcde503c627f!2s5555%20Av%20du%20Parc%2C%20Montr%C3%A9al%2C%20QC!5e0!3m2!1sen!2sca!4v1699056726755!5m2!1sen!2sca" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+</body>
+</html>
